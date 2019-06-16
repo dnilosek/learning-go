@@ -2,19 +2,29 @@ package main
 
 import "fmt"
 
+// Const vars
+const (
+	const_int   = 42
+	const_float = 42.2
+	const_str   = "const string"
+)
+const single = 42
+
 // Global var
 var global = 42
 
 // Zero value is assigned when not initalized
 var globalIntUninit int
 
-var interpString string = "I am an inepreted string"
+var (
+	interpString string = "I am an inepreted string"
 
-// Raw string literal will keep everthing
-var rawString string = `I am a 
+	// Raw string literal will keep everthing
+	rawString string = `I am a 
 
 
 raw string`
+)
 
 func main() {
 

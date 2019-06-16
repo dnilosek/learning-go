@@ -16,5 +16,4 @@ func main() {
 	// Assign via conversion
 	a = int(b)
 	fmt.Printf("a is %T with val %v\n", a, a)
-
 }
