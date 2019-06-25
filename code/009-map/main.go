@@ -28,4 +28,28 @@ func main() {
 	for k, v := range m {
 		fmt.Println(k, v)
 	}
+
+	jamesmap := map[string][]string{
+		"bond_james":      []string{"Shaken, not stirred", "Martinis", "Women"},
+		"moneypenny_miss": []string{"James Bond", "Literature", "Computer Science"},
+		"no_dr":           []string{"Being evil", "Ice cream", "Sunsets"},
+	}
+
+	jamesmap["q_q"] = []string{"cool stuff", "more cool stuff"}
+
+	for key, val := range jamesmap {
+		fmt.Printf("Key: %v\n", key)
+		for i, v := range val {
+			fmt.Printf("Index: %v \t Value: %v\n", i, v)
+		}
+	}
+
+	delete(jamesmap, "q_q")
+	for key, val := range jamesmap {
+		fmt.Printf("Key: %v\n", key)
+		for i, v := range val {
+			fmt.Printf("Index: %v \t Value: %v\n", i, v)
+		}
+	}
+
 }

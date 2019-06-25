@@ -41,4 +41,16 @@ func main() {
 	fmt.Println(z)
 	fmt.Println(len(z))
 	fmt.Println(cap(z))
+
+	var jamesdat [][]string
+	jamesdat = append(jamesdat, []string{"James", "Bond", "Shaken, not stirred"})
+	jamesdat = append(jamesdat, []string{"Miss", "Moneypenny", "Helloooooo James"})
+
+	for i, xs := range jamesdat {
+		fmt.Println("record: ", i)
+		for j, val := range xs {
+			fmt.Printf("\t index postion: %v \t value: \t %v\n", j, val)
+		}
+		fmt.Println("\n")
+	}
 }
