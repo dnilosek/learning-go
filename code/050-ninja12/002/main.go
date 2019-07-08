@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.eagleview.com/david.nilosek/learning-go/code/050-ninja12/002/quote"
-	"github.eagleview.com/david.nilosek/learning-go/code/050-ninja12/002/word"
+	"github.com/dnilosek/learning-go/code/050-ninja12/002/quote"
+	"github.com/dnilosek/learning-go/code/050-ninja12/002/word"
 )
 
 func main() {

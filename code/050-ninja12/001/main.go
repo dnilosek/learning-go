@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.eagleview.com/david.nilosek/learning-go/code/050-ninja12/001/dog"
+	"github.com/dnilosek/learning-go/code/050-ninja12/001/dog"
 )
 
 type canine struct {
